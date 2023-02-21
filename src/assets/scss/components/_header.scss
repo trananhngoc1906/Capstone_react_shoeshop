@@ -1,0 +1,36 @@
+.header-top {
+  display: flex;
+  justify-content: space-between;
+
+  .header__left {
+    height: 50px;
+    a {
+      color: white;
+      img {
+        height: 100%;
+      }
+    }
+  }
+  .header__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > div {
+      margin-left: 20px;
+    }
+    a,
+    i,
+    span {
+      color: white;
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.header-bot{
+  color: black;
+  font-size: 1.8rem;
+  span{
+    margin-right: 20px ;
+  }
+}

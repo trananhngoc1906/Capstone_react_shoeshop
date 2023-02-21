@@ -1,0 +1,31 @@
+.footer {
+  div {
+    margin: 0 auto;
+  }
+  .footer__top {
+    padding: 50px 20px;
+    display: flex;
+    font-size: 1.6rem;
+    h5 {
+      font-size: 20px;
+    }
+    ul {
+      padding: 0;
+      li {
+        margin-top: 10px;
+        a {
+          color: black;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+.footer__bot {
+  height: 75px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-gray;
+}

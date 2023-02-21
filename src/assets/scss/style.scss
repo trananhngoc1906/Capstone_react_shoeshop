@@ -1,0 +1,12 @@
+@import "./variable/variable";
+@import "./base/base";
+@import "./components/header";
+@import "./components/footer";
+@import './components/shoescard';
+
+//pages
+@import "./pages/home/home";
+@import "./pages/detail/detail";
+@import "./pages/profile/profile";
+@import "./pages/search/search";
+@import './pages/register/register';

@@ -1,0 +1,18 @@
+.profile{
+    display: flex;
+    .profile__img{
+        width: 20%;
+        img{
+            width: 100%;
+        }
+    }
+    .profile__info{
+        display: flex;
+        flex-wrap: wrap;
+        .profile__name,.profile__email,.profile__phone,.profile__gender{
+            width: 50%;
+            font-weight: 600;
+            font-size: 2rem;
+        }
+    }
+}
